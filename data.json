@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "title": "Fender Stratocaster",
+      "subtitle": "Classic Electric Guitar",
+      "description": "Experience the legendary tone that shaped rock history. The Fender Stratocaster delivers versatile sounds from crystal-clear cleans to soaring leads, featuring three single-coil pickups and iconic tremolo bridge.",
+      "button1Text": "Buy Now - $1,299",
+      "button2Text": "Hear Samples",
+      "imageUrl": "images/guitar (1).jpg"
+    },
+    {
+      "title": "Gibson Les Paul",
+      "subtitle": "Premium Mahogany Electric",
+      "description": "Unleash the power of rock with this iconic Gibson Les Paul. Featuring dual humbucking pickups, mahogany body, and maple cap for that legendary thick, warm tone that's perfect for blues, rock, and metal.",
+      "button1Text": "Buy Now - $2,499",
+      "button2Text": "View Specs",
+      "imageUrl": "images/guitar (2).jpg"
+    },
+    {
+      "title": "Martin D-28 Acoustic",
+      "subtitle": "Dreadnought Steel String",
+      "description": "Discover the rich, booming sound of this legendary acoustic guitar. Hand-crafted with a solid spruce top and rosewood back, the Martin D-28 delivers exceptional projection and warm, balanced tone.",
+      "button1Text": "Buy Now - $3,199",
+      "button2Text": "Sound Demo",
+      "imageUrl": "images/guitar (3).jpg"
+    },
+    {
+      "title": "Taylor 814ce",
+      "subtitle": "Grand Auditorium Acoustic",
+      "description": "Experience modern acoustic perfection with the Taylor 814ce. Featuring Indian rosewood and Sitka spruce construction, ES2 electronics, and Taylor's renowned playability and crystal-clear tone.",
+      "button1Text": "Buy Now - $4,299",
+      "button2Text": "Try in Store",
+      "imageUrl": "images/guitar (4).jpg"
+    },
+    {
+      "title": "Ibanez RG Series",
+      "subtitle": "High-Performance Electric",
+      "description": "Built for speed and precision, this Ibanez RG delivers lightning-fast playability. Perfect for metal and progressive rock with its thin neck profile, powerful humbuckers, and floating tremolo system.",
+      "button1Text": "Buy Now - $899",
+      "button2Text": "Metal Tones",
+      "imageUrl": "images/guitar (5).jpg"
+    },
+    {
+      "title": "Yamaha FG830",
+      "subtitle": "Beginner Acoustic Guitar",
+      "description": "Start your musical journey with this exceptional entry-level acoustic. The Yamaha FG830 offers professional sound quality at an affordable price, with solid spruce top and excellent build quality.",
+      "button1Text": "Buy Now - $299",
+      "button2Text": "Beginner Guide",
+      "imageUrl": "images/guitar (6).jpg"
+    }
+  ]
+}

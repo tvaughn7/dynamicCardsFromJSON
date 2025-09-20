@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* Apple Design System with Tailwind Utilities Only */
+
+/* Apple Colors as CSS Variables */
+:root {
+  --apple-blue: #007AFF;
+  --apple-blue-dark: #005299;
+  --apple-gradient: linear-gradient(135deg, #007AFF 0%, #005299 100%);
+}
+
+/* Custom Apple Components using CSS + Tailwind classes in HTML */
+.apple-font {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Apple Glass Effect */
+.apple-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Apple Navigation Glass */
+.apple-nav {
+  background: rgba(248, 248, 248, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Apple Card Glass */
+.apple-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.apple-card:hover {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+/* Apple Button Primary */
+.apple-button-primary {
+  background: var(--apple-gradient);
+  box-shadow: 0 2px 10px rgba(0, 122, 255, 0.3);
+}
+
+.apple-button-primary:hover {
+  box-shadow: 0 4px 20px rgba(0, 122, 255, 0.4);
+}
+
+/* Apple Button Secondary */
+.apple-button-secondary {
+  background: rgba(0, 122, 255, 0.1);
+  color: var(--apple-blue);
+}
+
+.apple-button-secondary:hover {
+  background: rgba(0, 122, 255, 0.15);
+}
+
+/* Responsive Custom Utilities */
+@media (max-width: 575.98px) {
+  .xs\:hidden { display: none; }
+  .xs\:block { display: block; }
+  .xs\:text-sm { font-size: 0.875rem; }
+  .xs\:p-2 { padding: 0.5rem; }
+  .xs\:m-1 { margin: 0.25rem; }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sm\:hidden { display: none; }
+  .sm\:block { display: block; }
+  .sm\:text-base { font-size: 1rem; }
+  .sm\:p-3 { padding: 0.75rem; }
+  .sm\:m-2 { margin: 0.5rem; }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .md\:hidden { display: none; }
+  .md\:block { display: block; }
+  .md\:text-lg { font-size: 1.125rem; }
+  .md\:p-4 { padding: 1rem; }
+  .md\:m-3 { margin: 0.75rem; }
+}
+
+@media (min-width: 992px) {
+  .lg\:hidden { display: none; }
+  .lg\:block { display: block; }
+  .lg\:text-xl { font-size: 1.25rem; }
+  .lg\:p-6 { padding: 1.5rem; }
+  .lg\:m-4 { margin: 1rem; }
+}
